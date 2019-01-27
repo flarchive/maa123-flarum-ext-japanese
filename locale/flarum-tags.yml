@@ -1,0 +1,104 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: タグを削除する
+      delete_tag_confirmation: "このタグを削除してもよろしいですか？ タグのディスカッションは削除されません。"
+      description_label: 説明
+      hide_label: すべての投稿から隠す
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: スラグ
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: 投稿を整理するためにに利用できるタグのリストを管理します。
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: タグの編集を許可する
+      restrict_by_tag_heading: タグで制限する
+      tag_discussions_label: 投稿にタグをつける
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " to "
+      required_primary_heading: プライマリタグの必要数
+      required_primary_text: 投稿に適用されるプライマリタグの最小数と最大数を入力します。
+      required_secondary_heading: 必要なセカンダリタグの数
+      required_secondary_text: 投稿に適用できるセカンダリタグの最小数と最大数を入力します。
+      title: タグ設定
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "タグは投稿を分類するために使用されます。プライマリタグはフォーラムカテゴリのようなもので、2つのレベルの階層に配置できます。セカンダリタグには階層や順序はなく、内容を細かく指定することに役立ちます。"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: プライマリタグ
+      secondary_heading: セカンダリタグ
+      settings_button: 設定
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "重要なタグを一つ選んでください|重要なタグを{count}個選んでください"
+      choose_secondary_placeholder: "タグをもう一つ選択してください|タグを後{count}個選択してください"
+      edit_title: "{title}のタグを編集"
+      submit_button: => core.ref.okay
+      title: タグを選択してください
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: タグを選択
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: タグを編集
+
+    header:
+      back_to_tags_tooltip: Back to Tag List
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: もっと...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: 外す
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username}が{tagsAdded}を追加し、{tagsRemoved}を削除"
+      added_tags_text: "{username}が{tagsAdded}を追加"
+      removed_tags_text: "{username} が {tagsRemoved}を削除"
+      tags_text: "{tags} タグ|{tags} タグ"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: 削除された
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: タグを作成
+    name: 名前
+    tags: タグ
