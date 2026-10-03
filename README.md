@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of maa123/flarum-ext-japanese.** Not for installation: use [Packagist](https://packagist.org/packages/maa123/flarum-ext-japanese) or the [upstream repository](https://github.com/maa123/flarum-ext-japanese).
 
-**0** versions archived · Latest: [`v0.1.4.2`](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.4.2) · License: `MIT` · Flarum: `^0.1.0-beta.13`
+**12** versions archived · Latest: [`v0.1.4.2`](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.4.2) · License: `MIT` · Flarum: `^0.1.0-beta.13`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0-beta.3` | 2015-10-28 | — | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.0-beta.3) |
+| `v0.1.0-beta.4` | 2015-11-04 | — | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.0-beta.4) |
+| `v0.1.0-beta.5` | 2016-03-29 | `^0.1.0-beta.5` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.0-beta.5) |
+| `v0.1.0-beta.6` | 2016-09-25 | `^0.1.0-beta.5` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.0-beta.6) |
+| `v0.1.0-beta.7` | 2016-09-25 | `^0.1.0-beta.5` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.0-beta.7) |
+| `v0.1.1` | 2016-09-26 | `^0.1.0-beta.5` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.1) |
+| `v0.1.2` | 2016-09-27 | `^0.1.0-beta.5` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.2) |
+| `v0.1.3` | 2017-07-25 | `^0.1.0-beta.6` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.3) |
+| `v0.1.3.1` | 2017-07-26 | `^0.1.0-beta.6` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.3.1) |
+| `v0.1.4` | 2019-01-26 | `^0.1.0-beta.6` | [Browse](https://github.com/flarchive/maa123-flarum-ext-japanese/tree/archive/v0.1.4) |
+
+[View all 12 versions](https://github.com/flarchive/maa123-flarum-ext-japanese/tags)
 
 Catalog entry: [packages/maa123-flarum-ext-japanese.json](https://github.com/flarchive/archive-index/blob/main/packages/maa123-flarum-ext-japanese.json)
 
